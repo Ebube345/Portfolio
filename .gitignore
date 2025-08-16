@@ -14,3 +14,6 @@ crash.log
 
 # Ignore any tfplan files
 *tfplan*
+
+# Ignore cluster config 
+*cluster-config*
