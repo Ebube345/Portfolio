@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - 'projects/gitops-with-flux/**'  # Adjust this to the path of your particular project (e.g., the directory containing Terraform files)
+      - 'projects/gitops-with-flux/iac/terraform/**'  # Adjust this to the path of your particular project (e.g., the directory containing Terraform files)
   pull_request:
     branches:
       - main
     paths:
-      - 'projects/gitops-with-flux/**'  # Same as above
+      - 'projects/gitops-with-flux/iac/terraform/**'  # Same as above
 
 permissions:
   contents: read
