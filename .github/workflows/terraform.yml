@@ -49,9 +49,11 @@ jobs:
         
       - name: Terraform Validate
         run: terraform validate
+        working-directory: projects/gitops-with-flux/iac/terraform/
 
       - name: Terraform Plan
         run: terraform plan -out=plan.tfplan
+        working-directory: projects/gitops-with-flux/iac/terraform/
         if: github.event_name == 'pull_request'
 
       - name: Comment Plan on PR
@@ -67,7 +69,9 @@ jobs:
               repo: context.repo.repo,
               body: 'Terraform Plan:\n```\n' + plan + '\n```'
             });
+        
 
       - name: Terraform Apply
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: terraform apply -auto-approve
+        working-directory: projects/gitops-with-flux/iac/terraform/
