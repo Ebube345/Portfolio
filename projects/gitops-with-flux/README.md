@@ -11,6 +11,7 @@ This repository serves as the source of truth for a GitOps-managed Kubernetes en
 - **Flux Installation:** Managed via Terraform
 - **Repository Role:** Source of truth for Flux to reconcile Kubernetes manifests
 
+
 ## 📁 Structure
 
 ```text
