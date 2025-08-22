@@ -1,6 +1,6 @@
 # 🚀 DevOps & Kubernetes Administrator Portfolio
 
-Hi, I'm **Ebube**, a DevOps and Kubernetes Engineer with hands-on experience building secure, scalable cloud-native infrastructure. I specialize in automation, CI/CD pipelines, cloud networking, and Kubernetes orchestration across AWS, Azure, GCP and On-prem.
+Hi, I'm **Ebube**, a DevOps and Kubernetes Engineer with hands-on experience building secure, scalable cloud-native infrastructure. I specialize in automation, CI/CD pipelines, cloud networking, and Kubernetes orchestration across AWS, Azure, GCP and On-prem
 
 ---
 
