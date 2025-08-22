@@ -21,5 +21,6 @@ This repository serves as the source of truth for a GitOps-managed Kubernetes en
 └── README.md
 
 ```
+
 ---
 **This Documentation was generated with the help of AI**
