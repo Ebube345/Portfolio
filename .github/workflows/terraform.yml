@@ -73,5 +73,5 @@ jobs:
 
       - name: Terraform Apply
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve -var="github_owner=${{secrets.DEPLOY_TOKEN}}" -var="github_repository=${{vars.REPO_NAME}}" -var="github_owner=${{vars.REPO_OWNER}}"
         working-directory: projects/gitops-with-flux/iac/terraform/
