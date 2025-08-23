@@ -90,7 +90,7 @@ This pipeline ensures infrastructure changes are validated, reviewed, and safely
 
 **Location:** [`projects/aws/`](projects/aws/)
 
-Sometimes cloud resources such as Security Groups, EC2, Network Interfaces are created using the console or CLI which makes it difficult to track or delete for existing resources. This terraform project utilizes a modular structure. A module to create a resource group and also another module to import resources and save them into a folder for future reference and import.
+Sometimes cloud resources such as Security Groups, EC2, Network Interfaces are created using the console or CLI which makes it difficult to track or delete existing resources. This terraform project utilizes a modular structure. A module to create a resource group and also another module to import resources and save them into a folder for future reference and import.
 
 **Step-by-step:**
 1. **Resource Group Creation:** Uses Terraform modules to create AWS resource groups based on tag filters (`modules/resource_group`).
