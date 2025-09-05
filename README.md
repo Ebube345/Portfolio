@@ -11,14 +11,14 @@ Hi, I'm **Ebube**, a DevOps and Kubernetes Engineer with hands-on experience bui
 | Category                  | Tools |
 |---------------------------|-------|
 | **CI/CD**                 | GitLab CI, GitHub Actions|
-| **Infrastructure as Code**| Terraform, Ansible |
+| **Infrastructure as Code**| Terraform, Terragrunt |
 | **Containerization**      | Docker, Kubernetes, Helm |
 | **Cloud Platforms**       | AWS, Azure, GCP |
-| **Monitoring & Logging**  | Prometheus, Grafana, ELK Stack, CloudWatch |
+| **Monitoring & Logging**  | Prometheus, Grafana, OpenTelemetry |
 | **Scripting**             | Python, Bash, PowerShell |
 | **Security**              | IAM, Key Vault, Secrets Manager, RBAC |
 | **Networking**            | VPC, Private Clusters, DNS, NAT, Firewalls |
-| **Databases & Storage**   | RDS, Blob Storage, S3, GCS |
+| **Databases & Storage**   | RDS, Blob Storage, S3 |
 
 ---
 
