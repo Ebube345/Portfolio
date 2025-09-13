@@ -23,3 +23,10 @@ crash.log
 
 # Ignore import blocks
 **import_blocks.tf
+
+# Ignore sensitive vars
+**billing_vars**
+**common_vars**
+
+# Terragrunt files
+**.terragrunt-cache
